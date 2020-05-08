@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 any potential errors within that component inside of React */ 
 
 class ErrorBoundary extends Component {
-  contructor(props) {
+  constructor(props) {
     super(props) 
     this.state = {
       hasError: false
